@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 15px 15px;
+}
+
+.topbar .TopR button {
+    color: #7b7b7b;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 100%;
+    font-size: 25px;
+    border: 0px;
+    background-color: #ffffff;
+    margin-right: -1px;
+}
+
+.topbar .TopR button:hover {
+    background-color: #e9e9e9;
+}
+
+.topbar .TopL .logo button {
+    color: #ff0000;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 100%;
+    font-size: 25px;
+    border: 0px;
+    background-color: #ffffff;
+    margin-right: -1px;
+}
+
+.topbar .TopL .logo button:hover {
+    background-color: #e9e9e9;
+}
+
+.topbar .TopL .nav button {
+    color: #7b7b7b;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 100%;
+    font-size: 25px;
+    border: 0px;
+    background-color: #ffffff;
+    margin-right: -1px;
+}
+
+.topbar .TopL .nav button:hover {
+    background-color: #e9e9e9;
+}
+
+.topbar .TopL {
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    width: auto;
+    columns: 7;
+    column-gap: 12px;
+    padding: 10px 80px;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
